@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folgas</title>
+
+    <link rel="icon" type="image/png" href="/Photos/icon.png">
+
+    <link rel="stylesheet/less" type="text/css" href="/Styles/style.less" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <button id="btnTimesShow">Times</button>
+        <button id="btnItineraryShow">Itinerary</button>
+    </header>
+
+    <section id="showTime" class="hidde"></section>
+    <section id="showDayOffs" class="hidden">
+
+        <h1>Escala de Folgas</h1>
+
+    <div class="box">
+
+      <div class="box2">
+      <label for="personName">Selecione o nome do funcionário:</label>
+      <select id="personName">
+        <option value=""></option>
+        <option value="Dias">João Dias</option>
+        <option value="Eduardo">Eduardo Amorim</option>
+        <option value="Pedro">Pedro Henrique</option>
+        <option value="Flavio">Flavio Lourenço</option>
+        <option value="Ramon">Ramon Mendonça</option>
+        <option value="Marya">Marya Eduarda</option>
+        <option value="Giovanna">Giovanna dos Anjos</option>
+      </select>
+      </div>
+
+      <div class="box2">
+      <label for="quantity">Selecione o nome do funcionário:</label>
+      <select id="quantity">
+        <option value="32">32</option>
+        <option value="64">64</option>
+        <option value="96">96</option>
+        <option value="128">128</option>
+        <option value="160">160</option>
+      </select>
+      </div>
+
+    </div>
+
+      <button onclick="showDayOffs()">Mostrar Folgas</button>
+      <div id="listaDeFolgas"></div>
+    </section>
+
+    <footer></footer>
+    
+</body>
+
+<script src="/JS/less.js"></script>
+<script src="/JS/main.js"></script>
+</html>
