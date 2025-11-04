@@ -58,10 +58,10 @@ var persons = {
   },
   Giovanna: {
     Name: 'Giovanna dos Anjos',
-    DayOff: "4",
+    DayOff: "5",
     MonthDayOff: "11",
     DayOffs: [],
-    Double: true,
+    Double: false,
     Times: ["1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1,1"],
     Vacation: false
   },
@@ -419,6 +419,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
