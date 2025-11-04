@@ -62,7 +62,7 @@ var persons = {
     MonthDayOff: "11",
     DayOffs: [],
     Double: true,
-    Times: ["1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F1,1,,1,1,1,1,F,1,1,1"],
+    Times: ["1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1,1"],
     Vacation: false
   },
 };
@@ -419,6 +419,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
