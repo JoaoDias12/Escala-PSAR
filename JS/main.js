@@ -8,7 +8,7 @@ var persons = {
       MonthDayOff: "11",
       DayOffs: [],
       Double: true,
-      Times: ["F,F,1,1,3,1,1,1,F,1,2,3,1,1,1,F,F,1,1,3,1,,1,1,F,3,3,1,3,,1,1,F"],
+      Times: ["F,F,1,1,3,1,1,1,F,1,2,3,1,1,1,F,F,1,1,3,1,1,1,F,3,3,1,3,1,1,F"],
       Vacation: false
     },
     Soares: {
@@ -44,7 +44,7 @@ var persons = {
       MonthDayOff: "11",
       DayOffs: [],
       Double: true,
-      Times:  ["F,F,1,1,1,2,1,1,F,1,1,2,3,3,1,F,F,1,3,3,1,1,1,,F,1,1,3,1,1,1,F"],
+      Times:  ["F,F,1,1,1,2,1,1,F,1,1,2,3,3,1,F,F,1,3,3,1,1,1,F,1,1,3,1,1,1,F"],
       Vacation: false
     },
     Ramon: {
@@ -428,6 +428,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
