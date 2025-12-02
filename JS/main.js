@@ -2,70 +2,79 @@
 // Dados simulados
 // ================================
 var persons = {
-  Dias: {
-    Name: 'João Vitor',
-    DayOff: "1",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: true,
-    Times: ["F,F,3,3,3,3,3,3,F,2,2,3,3,3,3,F,F,3,3,3,3,3,3,F,1,1,3,3,3,3"],
-    Vacation: false
-  },
-  Eduardo: {
-    Name: 'Eduardo Amorim',
-    DayOff: "6",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: false,
-    Times: ["1,1,1,1,1,F,1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F,1"],
-    Vacation: false
-  },
-  Pedro: {
-    Name: 'Pedro Henrique',
-    DayOff: "7",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: true,
-    Times: ["2,3,1,1,3,1,F,F,3,3,3,1,1,2,F,3,3,3,1,1,3,F,F,3,3,3,2,1,1,F"],
-    Vacation: false
-  },
-  Flavio: {
-    Name: 'Flavio Lourenço',
-    DayOff: "1",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: true,
-    Times: ["F,F,2,3,2,2,2,2,F,1,1,3,3,1,1,F,F,1,2,3,2,3,3,F,2,2,1,2,2,1"],
-    Vacation: false
-  },
-  Ramon: {
-    Name: 'Ramon Mendonça',
-    DayOff: "3",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: false,
-    Times: ["3,2,F,2,1,1,1,1,2,F,F,2,2,1,2,2,2,F,3,2,1,2,1,2,F,F,3,1,1,2"],
-    Vacation: false
-  },
-  Marya: {
-    Name: 'Marya Eduarda',
-    DayOff: "4",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: true,
-    Times: ["3,3,3,F,F,3,3,3,3,3,3,F,1,3,3,3,3,2,F,F,1,1,2,3,3,3,F,3,3,3"],
-    Vacation: false
-  },
-  Giovanna: {
-    Name: 'Giovanna dos Anjos',
-    DayOff: "5",
-    MonthDayOff: "11",
-    DayOffs: [],
-    Double: false,
-    Times: ["1,1,1,1,F,1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F,1,1"],
-    Vacation: false
-  },
-};
+    Dias: {
+      Name: 'João Vitor Dias',
+      DayOff: "1",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: true,
+      Times: ["F,F,1,1,3,1,1,1,F,1,2,3,1,1,1,F,F,1,1,3,1,,1,1,F,3,3,1,3,,1,1,F"],
+      Vacation: false
+    },
+    Soares: {
+        Name: 'João Vitor Soares',
+        DayOff: "7",
+        MonthDayOff: "11",
+        DayOffs: [],
+        Double: true,
+        Times: ["1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1"],
+        Vacation: false
+      },
+    Eduardo: {
+      Name: 'Eduardo Amorim',
+      DayOff: "6",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: false,
+      Times:  ["3,3,1,2,2,F,2,2,3,3,3,1,F,F,3,3,2,2,1,1,F,1,2,1,3,3,1,F,F,2,3"],
+      Vacation: false
+    },
+    Pedro: {
+      Name: 'Pedro Henrique',
+      DayOff: "7",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: true,
+      Times:  ["2,1,2,3,3,1,F,F,1,3,1,1,3,3,F,3,1,2,2,1,1,F,F,3,2,2,2,1,2,F,1"],
+      Vacation: false
+    },
+    Flavio: {
+      Name: 'Flavio Lourenço',
+      DayOff: "1",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: true,
+      Times:  ["F,F,1,1,1,2,1,1,F,1,1,2,3,3,1,F,F,1,3,3,1,1,1,,F,1,1,3,1,1,1,F"],
+      Vacation: false
+    },
+    Ramon: {
+      Name: 'Ramon Mendonça',
+      DayOff: "3",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: false,
+      Times:  ["1,2,F,3,1,1,1,1,2,F,F,3,1,2,1,1,1,F,3,2,2,2,1,2,F,F,3,1,1,1,2"],
+      Vacation: false
+    },
+    Marya: {
+      Name: 'Marya Eduarda',
+      DayOff: "4",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: true,
+      Times:  ["3,3,3,F,F,3,3,3,3,1,3,F,2,1,3,1,3,3,F,F,3,3,3,1,1,1,F,3,3,3,3"],
+      Vacation: false
+    },
+    Giovanna: {
+      Name: 'Giovanna dos Anjos',
+      DayOff: "5",
+      MonthDayOff: "11",
+      DayOffs: [],
+      Double: false,
+      Times: ["1,1,3,F,F,3,33,1,2,2,F,1,1,2,2,3,3,F,F,3,3,3,3,1,1,F,2,3,3,1"],
+      Vacation: false
+    },
+  };
 
 let btnTimesShow = document.getElementById("btnTimesShow")
 let btnItineraryShow = document.getElementById("btnItineraryShow")
@@ -419,6 +428,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
