@@ -172,13 +172,15 @@ function gerarBlocoDia(dia, mes, listaPorHorario) {
 
 // Função principal para montar o calendário de horários
 function montarShowTime() {
-  const { day: diaAtual, month: mesAtual } = getSaoPauloDate();
+  const { day: diaAtual, month: mesAtual, year: anoAtual } = getSaoPauloDate();
   const showTime = document.getElementById("showTime");
   showTime.innerHTML = ""; // Limpa antes de recriar
 
+  // Determinar quantos dias tem o mês atual
+  const ultimoDiaDoMes = new Date(anoAtual, mesAtual, 0).getDate();
+  
   // Agrupa todos os funcionários por dia
-  const diasNames = 30; // pode ajustar se quiser
-  for (let d = diaAtual; d <= diasNames; d++) {
+  for (let d = diaAtual; d <= ultimoDiaDoMes; d++) {
     const listaPorHorario = { "1": [], "2": [], "3": [], "F": [] };
     
     for (const key in persons) {
@@ -428,6 +430,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
