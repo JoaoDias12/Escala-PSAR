@@ -44,7 +44,7 @@ var persons = {
       MonthDayOff: "11",
       DayOffs: [],
       Double: true,
-      Times:  ["F,F,1,1,1,2,1,1,F,1,1,2,3,3,1,F,F,1,3,3,1,1,1,F,1,1,3,1,1,1,F"],
+      Times:  ["F,F,1,1,1,2,1,1,F,1,1,2,3,3,1,F,F,1,3,3,1,1,1,F,1,1,3,1,2,1,F"],
       Vacation: false
     },
     Ramon: {
@@ -53,7 +53,7 @@ var persons = {
       MonthDayOff: "11",
       DayOffs: [],
       Double: false,
-      Times:  ["1,2,F,3,1,1,1,1,2,F,F,3,1,2,1,1,1,F,3,2,2,2,1,2,F,F,3,1,1,1,2"],
+      Times:  ["1,2,F,3,1,1,1,1,2,F,F,3,1,2,1,1,1,F,3,2,2,2,1,2,F,F,3,2,1,1,2"],
       Vacation: false
     },
     Marya: {
@@ -75,6 +75,7 @@ var persons = {
       Vacation: false
     },
   };
+
 
 let btnTimesShow = document.getElementById("btnTimesShow")
 let btnItineraryShow = document.getElementById("btnItineraryShow")
@@ -430,6 +431,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
