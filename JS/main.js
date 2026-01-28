@@ -7,7 +7,7 @@ var persons = {
     DayOff: "8",
     MonthDayOff: "1",
     DayOffs: [],
-    Double: true,
+    Double: false,
     Times: ["F,3,3,2,2,1,3,F,2,3,2,1,2,1,F,F,3,2,3,2,1,1,F,2,3,3,3,2,1,F,F"],
     Vacation: false
   },
@@ -43,7 +43,7 @@ var persons = {
     DayOff: "8",
     MonthDayOff: "1",
     DayOffs: [],
-    Double: true,
+    Double: false,
     Times: ["F,3,1,3,3,1,1,F,2,3,1,1,1,3,F,F,3,1,1,3,3,1,F,2,2,3,1,1,3,F,F"],
     Vacation: false
   },
@@ -432,6 +432,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
