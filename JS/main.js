@@ -4,8 +4,8 @@
 var persons = {
   Dias: {
     Name: 'João Vitor Dias',
-    DayOff: "1",
-    MonthDayOff: "11",
+    DayOff: "8",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: true,
     Times: ["F,3,3,2,2,1,3,F,2,3,2,1,2,1,F,F,3,2,3,2,1,1,F,2,3,3,3,2,1,F,F"],
@@ -13,8 +13,8 @@ var persons = {
   },
   Soares: {
     Name: 'João Vitor Soares',
-    DayOff: "7",
-    MonthDayOff: "11",
+    DayOff: "6",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: true,
     Times: ["1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1,1,1,1,1,F,F,1,1,1,1,1,1,F,1,1"],
@@ -22,8 +22,8 @@ var persons = {
   },
   Eduardo: {
     Name: 'Eduardo Amorim',
-    DayOff: "6",
-    MonthDayOff: "11",
+    DayOff: "5",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: false,
     Times: ["1,2,2,1,F,2,2,1,1,2,1,F,F,2,2,2,1,1,1,F,1,2,2,1,2,1,F,F,2,2,1"],
@@ -31,8 +31,8 @@ var persons = {
   },
   Pedro: {
     Name: 'Pedro Henrique',
-    DayOff: "7",
-    MonthDayOff: "11",
+    DayOff: "6",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: true,
     Times: ["3,2,1,3,1,F,F,3,3,2,3,3,1,F,3,3,2,3,3,1,F,F,3,3,3,2,2,1,F,3,3"],
@@ -40,8 +40,8 @@ var persons = {
   },
   Flavio: {
     Name: 'Flavio Lourenço',
-    DayOff: "1",
-    MonthDayOff: "11",
+    DayOff: "8",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: true,
     Times: ["F,3,1,3,3,1,1,F,2,3,1,1,1,3,F,F,3,1,1,3,3,1,F,2,2,3,1,1,3,F,F"],
@@ -49,8 +49,8 @@ var persons = {
   },
   Ramon: {
     Name: 'Ramon Mendonça',
-    DayOff: "3",
-    MonthDayOff: "11",
+    DayOff: "2",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: false,
     Times: ["1,F,3,1,1,3,1,1,F,F,3,2,3,1,1,1,F,3,2,1,1,3,1,F,F,1,1,3,1,1,1"],
@@ -58,8 +58,8 @@ var persons = {
   },
   Marya: {
     Name: 'Marya Eduarda',
-    DayOff: "4",
-    MonthDayOff: "11",
+    DayOff: "3",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: true,
     Times: ["3,1,F,F,3,3,3,3,3,1,F,3,3,3,3,3,1,F,F,3,3,3,3,3,1,F,3,3,3,3,3"],
@@ -67,8 +67,8 @@ var persons = {
   },
   Giovanna: {
     Name: 'Giovanna dos Anjos',
-    DayOff: "4",
-    MonthDayOff: "11",
+    DayOff: "3",
+    MonthDayOff: "1",
     DayOffs: [],
     Double: true,
     Times: ["2,1,F,F,2,1,1,2,1,1,F,2,2,1,1,1,2,F,F,2,2,1,1,1,1,F,2,2,1,1,2"],
@@ -432,6 +432,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
