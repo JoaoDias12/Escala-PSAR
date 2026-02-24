@@ -2,6 +2,15 @@
 // Dados simulados
 // ================================
 var persons = {
+  Lanis: {
+    Name: 'Alanis',
+    DayOff: "27",
+    MonthDayOff: "2",
+    DayOffs: [],
+    Double: false,
+    Times: [""],
+    Vacation: false
+  },
   Dias: {
     Name: 'João Vitor Dias',
     DayOff: "8",
@@ -432,6 +441,7 @@ function showDayOffs() {
     }
   }
 }
+
 
 
 
