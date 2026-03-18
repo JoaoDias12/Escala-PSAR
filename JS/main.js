@@ -35,7 +35,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: ["2,1,1,1,1,F,1,1,1,2,1,1,F,F,1,1,1,1,1,F,1,1,1,2,2,1,F,F,1,1"],
+    Times: ["2,1,1,1,1,F,1,1,1,2,1,1,F,F,1,1,1,1,1,1,F,1,1,1,2,2,1,F,F,1,1"],
     Vacation: false
   },
   Pedro: {
