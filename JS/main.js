@@ -3,7 +3,7 @@
 // ================================
 var persons = {
   Jennifer: {
-    Name: 'Jeni',
+    Name: 'Jennifer',
     DayOff: "5",
     MonthDayOff: "4",
     DayOffs: [],
