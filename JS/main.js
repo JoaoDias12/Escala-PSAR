@@ -2,6 +2,15 @@
 // Dados simulados
 // ================================
 var persons = {
+  Jennifer: {
+    Name: 'Jeni',
+    DayOff: "5",
+    MonthDayOff: "4",
+    DayOffs: [],
+    Double: true,
+    Times: [""],
+    Vacation: false
+  },
   Lanis: {
     Name: 'Alanis',
     DayOff: "27",
