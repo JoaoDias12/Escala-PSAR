@@ -54,7 +54,7 @@ var persons = {
     DayOffs: [],
     Double: false,
     Times: ["1,F,1,1,1,1,3,1,F,F,1,3,2,2,1,1,F,1,1,3,1,2,1,F,F,3,1,1,1,1"],
-    Vacation: true
+    Vacation: false
   },
   Marya: {
     Name: 'Marya Eduarda',
