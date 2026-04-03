@@ -17,16 +17,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
-    Vacation: false
-  },
-  Soares: {
-    Name: 'João Vitor Soares',
-    DayOff: "6",
-    MonthDayOff: "1",
-    DayOffs: [],
-    Double: true,
-    Times: [""],
+    Times: ["F,3,1,1,1,3,3,F,3,1,3,1,1,1,F,F,1,3,3,1,1,3,F,3,2,1,2,3,3,F"],
     Vacation: false
   },
   Eduardo: {
@@ -35,7 +26,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
+    Times: ["2,1,3,1,F,3,2,1,1,3,1,F,F,3,3,1,1,1,1,F,1,1,3,2,1,1,F,F,2,1"],
     Vacation: false
   },
   Pedro: {
@@ -44,14 +35,14 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["1,1,1,3,2,F,F,3,1,1,1,3,3,F,3,1,3,1,1,1,F,F,1,1,3,1,3,2,F,3"],
     Vacation: false
   },
   Flavio: {
     Name: 'Flavio Lourenço',
     DayOff: "8",
     MonthDayOff: "1",
-    DayOffs: [],
+    DayOffs: [2,3,3,3,1,1,F,3,2,3,1,3,1,F,F,3,3,3,2,2,3,F,3,3,3,3,1,3,F],
     Double: false,
     Times: [""],
     Vacation: false
@@ -62,7 +53,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
+    Times: ["1,F,1,1,1,1,3,1,F,F,1,3,2,2,1,1,F,1,1,3,1,2,1,F,F,3,1,1,1,1"],
     Vacation: true
   },
   Marya: {
@@ -71,7 +62,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["1,1,F,F,1,2,1,3,1,1,F,1,1,3,1,3,2,F,F,1,3,1,3,1,1,F,1,3,1,3"],
     Vacation: false
   },
   Giovanna: {
@@ -80,7 +71,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["2,3,F,F,3,1,1,1,2,3,F,2,1,1,1,3,1,F,F,3,3,1,1,1,1,F,1,1,1,1"],
     Vacation: false
   }
 };
