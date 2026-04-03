@@ -42,7 +42,7 @@ var persons = {
     Name: 'Flavio Lourenço',
     DayOff: "8",
     MonthDayOff: "1",
-    DayOffs: ["2,3,3,3,1,1,F,3,2,3,1,3,1,F,F,3,3,3,2,2,3,F,3,3,3,3,1,3,F"],
+    DayOffs: ["F,2,3,3,3,1,1,F,3,2,3,1,3,1,F,F,3,3,3,2,2,3,F,3,3,3,3,1,3,F"],
     Double: false,
     Times: [""],
     Vacation: false
