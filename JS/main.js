@@ -4,7 +4,7 @@
 var persons = {
   Jennifer: {
     Name: 'Jennifer',
-    DayOff: "5",
+    DayOff: "31",
     MonthDayOff: "4",
     DayOffs: [],
     Double: true,
@@ -13,8 +13,8 @@ var persons = {
   },
   Lanis: {
     Name: 'Alanis',
-    DayOff: "27",
-    MonthDayOff: "2",
+    DayOff: "5",
+    MonthDayOff: "5",
     DayOffs: [],
     Double: false,
     Times: [""],
