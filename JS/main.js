@@ -8,7 +8,7 @@ var persons = {
     MonthDayOff: "4",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["F,1,2,1,1,3,1,F,3,3,1,1,3,1,F,F,3,1,3,1,1,3,F,1,3,1,1,3,1,F,F"],
     Vacation: false
   },
   Lanis: {
@@ -17,7 +17,7 @@ var persons = {
     MonthDayOff: "5",
     DayOffs: [],
     Double: false,
-    Times: [""],
+    Times: ["1,2,1,3,F,1,3,1,1,3,1,F,F,3,1,3,1,3,1,F,3,1,1,3,1,1,F,F,3,1,1"],
     Vacation: false
   },
   Dias: {
@@ -26,17 +26,8 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
-    Vacation: false
-  },
-  Eduardo: {
-    Name: 'Eduardo Amorim',
-    DayOff: "5",
-    MonthDayOff: "1",
-    DayOffs: [],
-    Double: false,
-    Times: [""],
-    Vacation: false
+    Times: ["F,3,3,V,V,V,V,F,V,V,V,V,V,V,F,F,V,V,V,V,V,V,F,V,V,V,V,V,V,F,F"],
+    Vacation: true
   },
   Pedro: {
     Name: 'Pedro Henrique',
@@ -44,7 +35,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["3,2,1,3,1,F,F,3,1,1,3,1,3,F,3,1,3,1,3,1,F,F,3,3,1,3,1,1,F,3,1"],
     Vacation: false
   },
   Flavio: {
@@ -53,8 +44,8 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
-    Vacation: false
+    Times: ["F,3,3,V,V,V,V,F,V,V,V,V,V,V,F,F,V,V,V,V,V,V,F,V,V,V,V,V,V,F,F"],
+    Vacation: true
   },
   Ramon: {
     Name: 'Ramon Mendonça',
@@ -62,7 +53,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
+    Times: ["3,F,1,1,1,3,3,1,F,F,3,1,1,3,1,1,F,3,1,1,3,1,1,F,3,1,3,1,1,3"],
     Vacation: false
   },
   Marya: {
@@ -71,16 +62,16 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["1,1,F,F,3,1,1,1,3,1,F,3,1,1,1,3,1,F,F,3,1,3,1,1,3,F,3,1,3,1,3"],
     Vacation: false
   },
-  Giovanna: {
-    Name: 'Giovanna dos Anjos',
+  Andreia: {
+    Name: 'Andreia',
     DayOff: "3",
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["1,1,F,F,3,1,1,3,1,1,F,3,1,1,3,1,1,F,F,3,1,1,3,1,1,F,3,1,1,3,1"],
     Vacation: false
   }
 };
