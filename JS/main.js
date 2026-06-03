@@ -18,7 +18,7 @@ var persons = {
     DayOffs: [],
     Double: false,
     Times: ["V,V,3,1,1,2,F,1,3,3,2,1,3,F,F,3,1,3,1,3,1,F,2,1,1,3,1,3,F,F"],
-    Vacation: true
+    Vacation: false
   },
   Pedro: {
     Name: 'Pedro Henrique',
@@ -36,7 +36,7 @@ var persons = {
     DayOffs: [],
     Double: false,
     Times: ["V,V,3,1,2,3,F,3,2,1,1,3,1,F,F,1,1,3,1,3,3,F,3,1,1,1,3,1,F,F"],
-    Vacation: true
+    Vacation: false
   },
   Ramon: {
     Name: 'Ramon Mendonça',
