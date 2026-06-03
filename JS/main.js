@@ -26,7 +26,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: ["3,1,1,2,F,F,3,2,1,1,3,F,F,F,3,1,1,3,1,2,F,F,3,1,3,1,1,2,F,3,1"],
+    Times: ["3,1,1,2,F,F,3,2,1,1,3,F,F,3,1,1,3,1,2,F,F,3,1,3,1,1,2,F,3,1"],
     Vacation: false
   },
   Flavio: {
