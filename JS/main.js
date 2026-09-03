@@ -8,7 +8,7 @@ var persons = {
     MonthDayOff: "5",
     DayOffs: [],
     Double: false,
-    Times: ["3,1,F,3,1,1,3,1,3,F,F,1,1,3,1,1,3,F,1,3,1,3,1,3,F,F,3,1,3,1,3"],
+    Times: ["3,F,3,3,1,1,3,1,F,F,1,3,1,1,3,3,F,1,3,1,3,1,1,F,F,3,1,3,1,3"],
     Vacation: false
   },
   Dias: {
@@ -26,7 +26,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: ["3,1,2,F,F,V,V,V,V,V,V,F,V,V,V,V,V,V,F,F,V,V,V,V,V,V,F,V,V,V,V"],
+    Times: ["V,V,F,F,3,3,3,1,1,3,F,1,3,1,1,3,1,F,F,3,3,1,3,1,3,F,3,1,1,1"],
     Vacation: false
   },
   Flavio: {
@@ -35,7 +35,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: ["1,3,1,F,F,1,1,3,1,1,3,F,1,1,3,3,1,3,F,F,1,3,1,1,3,1,F,1,1,3,1"],
+    Times: ["1,1,1,FC,F,3,1,3,3,1,3,F,F,3,1,1,3,3,1,F,1,3,1,1,3,1,F,F,3,1"],
     Vacation: false
   },
   Ramon: {
@@ -44,7 +44,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: ["1,3,1,1,1,3,F,F,3,1,1,3,1,3,F,3,1,1,1,3,3,F,F,3,1,1,3,3,1,F,3"],
+    Times: ["1,3,1,3,3,F,F,3,1,1,3,1,3,F,3,1,1,3,3,1,F,F,3,3,1,3,FC,3,F,3"],
     Vacation: false
   },
   Marya: {
@@ -53,7 +53,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: ["F,F,3,1,3,1,1,3,F,1,3,1,3,1,1,F,F,1,3,1,3,1,1,F,3,1,1,1,3,1,F"],
+    Times: ["F,1,1,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V,V"],
     Vacation: false
   },
   Andreia: {
@@ -62,7 +62,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: ["F,F,1,3,1,3,1,1,F,3,1,1,3,1,1,F,F,3,1,1,1,1,3,F,1,3,1,3,1,1,F"],
+    Times: ["F,3,3,1,1,1,1,F,3,3,1,3,1,3,F,F,3,1,1,3,1,3,F,3,1,1,3,1,3,F"],
     Vacation: false
   }
 };
