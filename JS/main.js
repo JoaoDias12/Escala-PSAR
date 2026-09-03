@@ -113,6 +113,7 @@ const horarios = {
   "1": "H1 (16:15 às 22:15)",
   "2": "H2 (16:45 às 22:45)",
   "3": "H3 (17:30 às 23:30)",
+  "FC": "Folga Compensa",
   "F": "Folga",
   "V": "Ferias"
 };
