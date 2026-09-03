@@ -11,15 +11,6 @@ var persons = {
     Times: ["3,F,3,3,1,1,3,1,F,F,1,3,1,1,3,3,F,1,3,1,3,1,1,F,F,3,1,3,1,3"],
     Vacation: false
   },
-  Dias: {
-    Name: 'João Vitor Dias',
-    DayOff: "8",
-    MonthDayOff: "1",
-    DayOffs: [],
-    Double: false,
-    Times: ["1,1,3,1,3,F,3,1,1,3,1,3,F,F,3,1,3,1,3,1,F,1,3,1,1,3,1,F,F,3,1"],
-    Vacation: false
-  },
   Pedro: {
     Name: 'Pedro Henrique',
     DayOff: "6",
