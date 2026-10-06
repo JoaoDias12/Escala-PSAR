@@ -1,5 +1,5 @@
 // ================================
-// Dados simulados
+// Dados simulados - Outubro/2026 (dia 1 a 31)
 // ================================
 var persons = {
   Lanis: {
@@ -8,7 +8,7 @@ var persons = {
     MonthDayOff: "5",
     DayOffs: [],
     Double: false,
-    Times: [""],
+    Times: ["3,F,3,1,1,1,1,3,F,F,3,1,1,3,1,3,F,3,1,1,3,1,3,F,F,3,1,3,1,3,1"],
     Vacation: false
   },
 
@@ -18,7 +18,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["3,1,F,F,3,1,3,1,1,1,F,3,1,1,3,1,1,F,F,3,1,3,1,1,1,F,3,1,3,1,3"],
     Vacation: false
   },
 
@@ -28,17 +28,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
-    Vacation: false
-  },
-
-  Wilton: {
-    Name: 'Wilton de Lima Silva',
-    DayOff: "",
-    MonthDayOff: "",
-    DayOffs: [],
-    Double: false,
-    Times: [""],
+    Times: ["1,3,1,1,F,3,1,1,3,1,1,F,F,3,1,3,1,1,3,F,3,1,1,3,1,F,F,1,3,1,3"],
     Vacation: false
   },
 
@@ -48,7 +38,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: false,
-    Times: [""],
+    Times: ["1,1,3,1,1,F,F,3,1,1,3,1,3,F,3,1,3,1,1,3,F,F,3,1,3,1,3,1,F,3,1"],
     Vacation: false
   },
 
@@ -58,7 +48,7 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["F,V,V,3,1,1,3,F,3,1,1,3,1,1,F,F,3,1,1,3,1,3,F,3,3,1,3,1,1,F,F"],
     Vacation: false
   },
 
@@ -68,11 +58,10 @@ var persons = {
     MonthDayOff: "1",
     DayOffs: [],
     Double: true,
-    Times: [""],
+    Times: ["F,1,3,1,3,1,3,F,3,1,1,3,1,3,F,F,3,1,3,1,3,1,F,3,1,1,3,1,1,F,F"],
     Vacation: false
   }
 };
-
 
 
 let btnTimesShow = document.getElementById("btnTimesShow")
